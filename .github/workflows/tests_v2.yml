@@ -1,5 +1,6 @@
 name: Tests v2 (pytest functional)
 on:
+  workflow_dispatch:
   pull_request:
   push:
     branches:
